@@ -45,10 +45,10 @@ function SentimentBar({ positive, neutral, negative }: { positive: number; neutr
 
 const tabs = ["Temáticas", "Preguntas clave", "Sentimiento"];
 const barColors = [
-  "bg-blue-500",
-  "bg-indigo-500",
-  "bg-violet-500",
-  "bg-purple-500",
+  "bg-brand-400",
+  "bg-brand-500",
+  "bg-brand-600",
+  "bg-brand-700",
 ];
 
 export default function DiagnosisSection() {
@@ -58,7 +58,7 @@ export default function DiagnosisSection() {
     <section className="py-12 px-6 bg-gray-50 border-b border-gray-100">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center gap-3 mb-8">
-          <span className="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center text-sm font-bold">2</span>
+          <span className="w-8 h-8 rounded-lg bg-brand-600 text-white flex items-center justify-center text-sm font-bold">2</span>
           <h2 className="text-2xl font-bold text-gray-900">Diagnóstico Detallado</h2>
         </div>
 
@@ -69,8 +69,8 @@ export default function DiagnosisSection() {
               onClick={() => setActiveTab(i)}
               className={`px-5 py-2 rounded-full text-sm font-semibold transition-all ${
                 activeTab === i
-                  ? "bg-blue-600 text-white shadow-md shadow-blue-100"
-                  : "bg-white text-gray-600 border border-gray-200 hover:border-blue-300 hover:text-blue-600"
+                  ? "bg-brand-600 text-white shadow-md shadow-brand-100"
+                  : "bg-white text-gray-600 border border-gray-200 hover:border-brand-300 hover:text-brand-600"
               }`}
             >
               {tab}
@@ -89,7 +89,7 @@ export default function DiagnosisSection() {
             {topicMentions.map((item, i) => (
               <div
                 key={item.topic}
-                className="grid grid-cols-12 items-center px-6 py-5 border-b border-gray-50 last:border-0 hover:bg-blue-50/30 transition-colors gap-y-2"
+                className="grid grid-cols-12 items-center px-6 py-5 border-b border-gray-50 last:border-0 hover:bg-brand-50/40 transition-colors gap-y-2"
               >
                 <div className="col-span-3 md:col-span-2">
                   <span className="font-semibold text-gray-800 text-sm leading-snug">{item.topic}</span>
@@ -116,7 +116,7 @@ export default function DiagnosisSection() {
             {keyQuestions.map((item, i) => (
               <div
                 key={item.question}
-                className="grid grid-cols-12 items-center px-6 py-5 border-b border-gray-50 last:border-0 hover:bg-blue-50/30 transition-colors gap-y-2"
+                className="grid grid-cols-12 items-center px-6 py-5 border-b border-gray-50 last:border-0 hover:bg-brand-50/40 transition-colors gap-y-2"
               >
                 <div className="col-span-5">
                   <span className="text-sm font-medium text-gray-800 italic">&quot;{item.question}&quot;</span>

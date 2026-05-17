@@ -1,19 +1,19 @@
 export default function Hero() {
   return (
-    <section className="relative pt-32 pb-24 px-6 overflow-hidden bg-gradient-to-br from-indigo-50 via-white to-purple-50">
+    <section className="relative pt-32 pb-24 px-6 overflow-hidden bg-gradient-to-br from-brand-50 via-white to-brand-100">
       <div className="absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-indigo-100/60 blur-3xl" />
-        <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full bg-purple-100/60 blur-3xl" />
+        <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-brand-100/70 blur-3xl" />
+        <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full bg-brand-200/60 blur-3xl" />
       </div>
 
       <div className="max-w-4xl mx-auto text-center">
-        <span className="inline-block mb-4 text-xs font-semibold tracking-widest text-indigo-600 uppercase bg-indigo-50 px-4 py-1.5 rounded-full border border-indigo-100">
+        <span className="inline-block mb-4 text-xs font-semibold tracking-widest text-brand-600 uppercase bg-brand-50 px-4 py-1.5 rounded-full border border-brand-100">
           Nuevo · Versión 2.0 ya disponible
         </span>
 
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-gray-900 leading-tight mb-6">
           Haz más con{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-brand-400">
             menos esfuerzo
           </span>
         </h1>
@@ -26,13 +26,13 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#"
-            className="bg-indigo-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200 text-base"
+            className="bg-brand-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-brand-700 transition-colors shadow-lg shadow-brand-200 text-base"
           >
             Pruébalo gratis 14 días
           </a>
           <a
             href="#features"
-            className="flex items-center justify-center gap-2 text-gray-700 font-semibold px-8 py-4 rounded-full border border-gray-200 hover:border-indigo-300 hover:text-indigo-600 transition-colors text-base"
+            className="flex items-center justify-center gap-2 text-gray-700 font-semibold px-8 py-4 rounded-full border border-gray-200 hover:border-brand-300 hover:text-brand-600 transition-colors text-base"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -64,7 +64,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="mt-20 max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl shadow-indigo-100 border border-gray-100">
+      <div className="mt-20 max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl shadow-brand-100 border border-gray-100">
         <div className="bg-gray-100 px-4 py-3 flex items-center gap-2">
           <div className="w-3 h-3 rounded-full bg-red-400" />
           <div className="w-3 h-3 rounded-full bg-yellow-400" />
@@ -73,7 +73,7 @@ export default function Hero() {
             app.nexora.io/dashboard
           </div>
         </div>
-        <div className="bg-gradient-to-br from-indigo-600 to-purple-700 h-64 flex items-center justify-center">
+        <div className="bg-gradient-to-br from-brand-600 to-brand-800 h-64 flex items-center justify-center">
           <p className="text-white/60 text-sm font-medium">[ Vista previa del dashboard ]</p>
         </div>
       </div>

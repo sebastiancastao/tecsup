@@ -47,7 +47,7 @@ export default function Pricing() {
     <section id="pricing" className="py-24 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-indigo-600 font-semibold text-sm uppercase tracking-widest">Precios</span>
+          <span className="text-brand-600 font-semibold text-sm uppercase tracking-widest">Precios</span>
           <h2 className="mt-3 text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
             Simple y transparente
           </h2>
@@ -62,7 +62,7 @@ export default function Pricing() {
               key={plan.name}
               className={`rounded-2xl p-8 border transition-all ${
                 plan.highlight
-                  ? "border-indigo-500 bg-indigo-600 text-white shadow-2xl shadow-indigo-200 scale-105"
+                  ? "border-brand-500 bg-brand-600 text-white shadow-2xl shadow-brand-200 scale-105"
                   : "border-gray-200 bg-white text-gray-900"
               }`}
             >
@@ -74,14 +74,14 @@ export default function Pricing() {
               <h3 className={`text-xl font-bold mb-1 ${plan.highlight ? "text-white" : "text-gray-900"}`}>
                 {plan.name}
               </h3>
-              <p className={`text-sm mb-6 ${plan.highlight ? "text-indigo-100" : "text-gray-500"}`}>
+              <p className={`text-sm mb-6 ${plan.highlight ? "text-brand-100" : "text-gray-500"}`}>
                 {plan.description}
               </p>
               <div className="flex items-end gap-1 mb-8">
                 <span className={`text-5xl font-extrabold ${plan.highlight ? "text-white" : "text-gray-900"}`}>
                   {plan.price}
                 </span>
-                <span className={`text-base mb-2 ${plan.highlight ? "text-indigo-200" : "text-gray-400"}`}>
+                <span className={`text-base mb-2 ${plan.highlight ? "text-brand-200" : "text-gray-400"}`}>
                   {plan.period}
                 </span>
               </div>
@@ -89,14 +89,14 @@ export default function Pricing() {
                 {plan.features.map((f) => (
                   <li key={f} className="flex items-center gap-2 text-sm">
                     <svg
-                      className={`w-4 h-4 flex-shrink-0 ${plan.highlight ? "text-indigo-200" : "text-indigo-500"}`}
+                      className={`w-4 h-4 flex-shrink-0 ${plan.highlight ? "text-brand-200" : "text-brand-500"}`}
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className={plan.highlight ? "text-indigo-100" : "text-gray-600"}>{f}</span>
+                    <span className={plan.highlight ? "text-brand-100" : "text-gray-600"}>{f}</span>
                   </li>
                 ))}
               </ul>
@@ -104,8 +104,8 @@ export default function Pricing() {
                 href="#"
                 className={`block text-center font-semibold py-3 rounded-full transition-colors text-sm ${
                   plan.highlight
-                    ? "bg-white text-indigo-600 hover:bg-indigo-50"
-                    : "bg-indigo-600 text-white hover:bg-indigo-700"
+                    ? "bg-white text-brand-600 hover:bg-brand-50"
+                    : "bg-brand-600 text-white hover:bg-brand-700"
                 }`}
               >
                 {plan.cta}

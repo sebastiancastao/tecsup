@@ -9,7 +9,7 @@ export default function ActionPlan() {
     <section className="py-12 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center gap-3 mb-2">
-          <span className="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center text-sm font-bold">3</span>
+          <span className="w-8 h-8 rounded-lg bg-brand-600 text-white flex items-center justify-center text-sm font-bold">3</span>
           <h2 className="text-2xl font-bold text-gray-900">Plan de Acción — Mayo</h2>
         </div>
         <p className="text-gray-500 text-sm ml-11 mb-8">
@@ -23,7 +23,7 @@ export default function ActionPlan() {
               <div
                 key={p.id}
                 className={`rounded-2xl border transition-all duration-300 overflow-hidden ${
-                  isOpen ? "border-blue-200 shadow-md shadow-blue-50" : "border-gray-100 hover:border-gray-200"
+                  isOpen ? "border-brand-200 shadow-md shadow-brand-50" : "border-gray-100 hover:border-gray-200"
                 }`}
               >
                 <button

@@ -36,7 +36,7 @@ export default function Features() {
     <section id="features" className="py-24 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-indigo-600 font-semibold text-sm uppercase tracking-widest">
+          <span className="text-brand-600 font-semibold text-sm uppercase tracking-widest">
             Características
           </span>
           <h2 className="mt-3 text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
@@ -51,10 +51,10 @@ export default function Features() {
           {features.map((f) => (
             <div
               key={f.title}
-              className="group p-8 rounded-2xl border border-gray-100 hover:border-indigo-200 hover:shadow-lg hover:shadow-indigo-50 transition-all duration-300 bg-white"
+              className="group p-8 rounded-2xl border border-gray-100 hover:border-brand-200 hover:shadow-lg hover:shadow-brand-50 transition-all duration-300 bg-white"
             >
               <div className="text-4xl mb-5">{f.icon}</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors">
+              <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-brand-600 transition-colors">
                 {f.title}
               </h3>
               <p className="text-gray-500 leading-relaxed text-sm">{f.description}</p>

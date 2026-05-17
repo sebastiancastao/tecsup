@@ -11,7 +11,7 @@ export default function InformePageContent() {
       <DiagnosisSection />
       <ActionPlan />
 
-      <footer className="bg-[#003087] text-blue-200 text-center py-6 text-xs">
+      <footer className="bg-brand-700 text-brand-100 text-center py-6 text-xs">
         Tecsup - Informe Ejecutivo IA - Periodo Feb-Abr 2026 - Equipo de Estrategia Digital
       </footer>
     </div>

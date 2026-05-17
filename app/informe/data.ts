@@ -102,9 +102,9 @@ export const priorities = [
   {
     id: 2,
     title: "Cerrar brechas competitivas en carreras y categorías",
-    color: "from-blue-500 to-indigo-500",
+    color: "from-brand-500 to-brand-700",
     badge: "Estratégico",
-    badgeColor: "bg-blue-100 text-blue-700",
+    badgeColor: "bg-brand-100 text-brand-700",
     objective:
       "Aumentar la visibilidad y cobertura de Tecsup en los conceptos y carreras donde los competidores tienen mayor presencia.",
     actions: [
@@ -124,9 +124,9 @@ export const priorities = [
   {
     id: 3,
     title: "Reforzar entidades de confianza que las IA puedan citar",
-    color: "from-purple-500 to-violet-500",
+    color: "from-brand-400 to-brand-600",
     badge: "Autoridad",
-    badgeColor: "bg-purple-100 text-purple-700",
+    badgeColor: "bg-brand-50 text-brand-700",
     objective:
       "Aumentar la autoridad percibida de Tecsup en respuestas generadas por IA y fortalecer las señales externas de confianza.",
     actions: [

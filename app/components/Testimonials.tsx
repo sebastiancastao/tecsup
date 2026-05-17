@@ -3,7 +3,7 @@ const testimonials = [
     name: "Ana García",
     role: "CTO en Startify",
     avatar: "AG",
-    color: "bg-indigo-500",
+    color: "bg-brand-500",
     quote:
       "Nexora transformó la forma en que coordinamos nuestros sprints. Redujimos reuniones a la mitad y la visibilidad del equipo es increíble.",
   },
@@ -11,7 +11,7 @@ const testimonials = [
     name: "Carlos Mendoza",
     role: "Product Manager en FinFlow",
     avatar: "CM",
-    color: "bg-purple-500",
+    color: "bg-brand-600",
     quote:
       "Las analíticas con IA nos ayudaron a detectar un cuello de botella que nos costaba 20% de conversiones. Recuperamos la inversión en el primer mes.",
   },
@@ -19,7 +19,7 @@ const testimonials = [
     name: "Sofía Reyes",
     role: "CEO en NovaTech",
     avatar: "SR",
-    color: "bg-pink-500",
+    color: "bg-brand-700",
     quote:
       "La interfaz es tan intuitiva que no necesitamos onboarding. Mi equipo de 40 personas lo adoptó en un día sin una sola queja.",
   },
@@ -27,10 +27,10 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="py-24 px-6 bg-gradient-to-br from-indigo-50 to-purple-50">
+    <section id="testimonials" className="py-24 px-6 bg-gradient-to-br from-brand-50 to-brand-100">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-indigo-600 font-semibold text-sm uppercase tracking-widest">
+          <span className="text-brand-600 font-semibold text-sm uppercase tracking-widest">
             Testimonios
           </span>
           <h2 className="mt-3 text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
